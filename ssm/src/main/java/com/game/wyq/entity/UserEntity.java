@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "t_user")
-public class UserEntity extends BaseDbBean{
+public class UserEntity extends BaseDbBean {
 
 	@Id
 	private long id;
@@ -40,4 +40,15 @@ public class UserEntity extends BaseDbBean{
 		this.password = password;
 	}
 
+	/**
+	 * 读取DB数据后事件
+	 */
+	public void readDbAfterEvent() {
+	}
+
+	/**
+	 * 写DB数据前事件
+	 */
+	public void writeDbBeforeEvent() {
+	}
 }
