@@ -71,7 +71,18 @@
 			<artifactId>nutz</artifactId>
 			<version>1.r.55</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>com.eclipse.java</groupId>
+			<artifactId>javax-persistence</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.eclipse.java</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
